@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Ired">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TransparentABTheme" parent="Theme.Ired">
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+
+    <style name="Item.Bottom">
+        <item name="android:background">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="Item.Bottom.Alt">
+        <item name="android:background">@android:color/holo_purple</item>
+    </style>
+
+</resources>
